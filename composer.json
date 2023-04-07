@@ -1,31 +1,38 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "mstfkhazaal/filament-jet",
+    "description": "This is my package filament-jet",
     "keywords": [
-        ":vendor_name",
+        "mstfkhazaal",
         "laravel",
-        ":package_slug"
+        "filament-jet"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/mstfkhazaal/filament-jet",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "mstfkhazaal",
+            "email": "mstfkhazaal@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.0",
+        "abanoubnassem/filament-grecaptcha-field": "^0.0.5",
+        "bacon/bacon-qr-code": "^2.0",
         "filament/filament": "^2.0",
-        "spatie/laravel-package-tools": "^1.13.5",
-        "illuminate/contracts": "^9.0"
+        "illuminate/contracts": "^8.0|^9.0|^10.0",
+        "jenssegers/agent": "^2.6",
+        "phpsa/filament-password-reveal": "^1.1",
+        "pragmarx/google2fa": "^7.0|^8.0",
+        "spatie/laravel-package-tools": "^1.14",
+        "spatie/laravel-personal-data-export": "^4.2",
+        "suleymanozev/filament-radio-button-field": "^2.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
-        "nunomaduro/collision": "^6.0",
+        "nunomaduro/collision": "^5.0|^6.0",
         "nunomaduro/larastan": "^2.0.1",
-        "orchestra/testbench": "^7.0",
+        "orchestra/testbench": "^6.0|^7.0|^8.0",
         "pestphp/pest": "^1.21",
         "pestphp/pest-plugin-laravel": "^1.1",
         "pestphp/pest-plugin-livewire": "^1.0",
@@ -38,13 +45,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Mstfkhazaal\\FilamentJet\\": "src",
+            "Mstfkhazaal\\FilamentJet\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Mstfkhazaal\\FilamentJet\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +74,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Mstfkhazaal\\FilamentJet\\FilamentJetServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentJet": "Mstfkhazaal\\FilamentJet\\Facades\\FilamentJet"
             }
         }
     },
