@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ['./resources/views/**/*.blade.php', './src/**/*.php'],
+    content: ['./resources/views/**/*.blade.php', './src/**/*.php', "./vendor/suleymanozev/**/*.blade.php",],
     darkMode: 'class',
     theme: {
         extend: {
