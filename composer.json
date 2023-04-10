@@ -15,6 +15,12 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mstfkhazaal/filament-password-reveal"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "abanoubnassem/filament-grecaptcha-field": "^0.0.5",
