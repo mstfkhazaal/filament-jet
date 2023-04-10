@@ -22,7 +22,7 @@ use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 use Illuminate\Support\Facades\Storage;
 use Livewire\Redirector;
-use Mstfkhazaal;
+use Mstfkhazaal\FilamentPasswordReveal\Password;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class Account extends Page

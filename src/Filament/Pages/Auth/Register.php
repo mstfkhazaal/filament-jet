@@ -15,7 +15,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
 use Illuminate\Support\HtmlString;
 use Livewire\Redirector;
-use Mstfkhazaal;
+use Mstfkhazaal\FilamentPasswordReveal\Password;
 
 class Register extends CardPage
 {

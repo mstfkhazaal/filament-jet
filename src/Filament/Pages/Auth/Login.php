@@ -21,7 +21,7 @@ use Illuminate\Routing\Pipeline;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\HtmlString;
 use Livewire\Redirector;
-use Mstfkhazaal;
+use Mstfkhazaal\FilamentPasswordReveal\Password;
 
 class Login extends CardPage
 {
