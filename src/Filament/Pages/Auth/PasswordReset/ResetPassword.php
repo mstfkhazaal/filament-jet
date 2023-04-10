@@ -17,7 +17,7 @@ use Illuminate\Contracts\Auth\CanResetPassword;
 use Illuminate\Contracts\Auth\PasswordBroker;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Password;
-use Phpsa\FilamentPasswordReveal\Password as PasswordInput;
+use Mstfkhazaal as PasswordInput;
 
 class ResetPassword extends CardPage
 {
