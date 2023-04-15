@@ -18,7 +18,7 @@
                 <div class="flex items-center mt-2">
                     <x-filament-jet-user-avatar :src="$this->user->profile_photo_url" :size="'lg'" />
 
-                    <div class="ml-4 leading-tight">
+                    <div class="ltr:ml-2 rtl:mr-2 leading-tight">
                         <div>{{ $this->user->name }}</div>
                         <div class="text-gray-700 text-sm dark:text-gray-300">{{ $this->user->email }}</div>
                     </div>

@@ -19,7 +19,7 @@
                     <div class="flex items-center mt-2">
                         <x-filament-jet-user-avatar :src="$team->owner->profile_photo_url" :size="'lg'" />
 
-                        <div class="ml-4 leading-tight">
+                        <div class="ltr:ml-2 rtl:mr-2 leading-tight">
                             <div>{{ $team->owner->name }}</div>
                             <div class="text-gray-700 text-sm dark:text-gray-300">{{ $team->owner->email }}</div>
                         </div>
